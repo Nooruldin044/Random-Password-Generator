@@ -1,17 +1,26 @@
-<<<<<<< HEAD
-# React + Vite
+# Password Generator
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A modern and responsive React application that generates strong, secure, and customizable passwords. This tool provides users with an intuitive interface to create random passwords based on specific security requirements.
 
-Currently, two official plugins are available:
+## Features
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+- **Customizable Password Length**: Adjustable slider from 6 to 32 characters
+- **Character Options**: Toggle for including numbers and special characters
+- **One-Click Copy**: Copy generated passwords to clipboard with visual feedback
+- **Real-time Generation**: Passwords update instantly when settings change
+- **Modern UI**: Clean dark theme with smooth animations and transitions
+- **Responsive Design**: Works perfectly on desktop and mobile devices
 
-## Expanding the ESLint configuration
+## Technology Stack
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
-=======
-# Random-Password-Generator
-A modern React application that generates strong and secure random passwords with customizable options. Features a clean, responsive interface with real-time password generation, copy-to-clipboard functionality, and adjustable settings for length, numbers, and special characters. Built with React hooks and Tailwind CSS
->>>>>>> 2e53003d11941efee03d48460329f33867879b6b
+- **React**: Frontend framework with hooks (useState, useCallback, useEffect, useRef)
+- **Tailwind CSS**: Utility-first CSS framework for styling
+- **JavaScript**: Core programming language
+- **Clipboard API**: For copying passwords to clipboard
+
+## Installation
+
+1. Clone the repository:
+```bash
+git clone <repository-url>
+cd password-generator
